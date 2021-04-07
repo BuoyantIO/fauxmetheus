@@ -1,0 +1,10 @@
+{
+    "deployments": [
+        {
+            "quantity": 1,
+            "pods": 3,
+            "fanIn": 3,
+            "fanOut": 3
+        }
+    ]
+}

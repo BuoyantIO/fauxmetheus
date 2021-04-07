@@ -1,0 +1,28 @@
+{
+    "deployments": [
+        {
+            "quantity": 1,
+            "pods": 10,
+            "fanIn": 1,
+            "fanOut": 100
+        },
+        {
+            "quantity": 2,
+            "pods": 10,
+            "fanIn": 30,
+            "fanOut": 30
+        },
+        {
+            "quantity": 2,
+            "pods": 10,
+            "fanIn": 10,
+            "fanOut": 10
+        },
+        {
+            "quantity": 5,
+            "pods": 10,
+            "fanIn": 30,
+            "fanOut": 0
+        }
+    ]
+}
