@@ -39,6 +39,6 @@ func main() {
 	counter = 0
 
 	http.Handle("/metrics", gziphandler.GzipHandler(http.HandlerFunc(handler)))
-	fmt.Println("Serving /metrics on :9990")
-	log.Fatal(http.ListenAndServe(":9990", nil))
+	fmt.Println("Serving /metrics on :4191")
+	log.Fatal(http.ListenAndServe(":4191", nil))
 }
