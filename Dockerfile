@@ -5,6 +5,5 @@ RUN go build .
 
 FROM alpine
 COPY --from=golang /fauxmetheus-build/fauxmetheus /
-COPY --from=golang /fauxmetheus-build/tiny.json /
-COPY --from=golang /fauxmetheus-build/medium.json /
+COPY --from=golang /fauxmetheus-build/*.json /
 ENTRYPOINT ["/fauxmetheus"]
